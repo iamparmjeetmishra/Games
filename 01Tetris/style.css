@@ -1,0 +1,31 @@
+/* body {
+    background-size: cover;
+    min-height: 100vh;
+    background-color:#9c99ff;
+    background-image:
+        radial-gradient(at 83% 28%, hsla(11,64%,66%,1) 0px, transparent 50%),
+        radial-gradient(at 90% 16%, hsla(89,98%,60%,1) 0px, transparent 50%),
+        radial-gradient(at 93% 70%, hsla(125,73%,75%,1) 0px, transparent 50%),
+        radial-gradient(at 2% 60%, hsla(162,80%,73%,1) 0px, transparent 50%),
+        radial-gradient(at 85% 10%, hsla(217,97%,62%,1) 0px, transparent 50%),
+        radial-gradient(at 29% 65%, hsla(177,74%,65%,1) 0px, transparent 50%),
+        radial-gradient(at 22% 99%, hsla(224,68%,64%,1) 0px, transparent 50%);
+} */
+.grid {
+    display: grid;
+    width: 200px;
+    height: 400px;
+    grid-template-columns: repeat(10, 1fr);
+    margin: 1rem;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    /* background-color: #9c99ff; */
+    border: 1px solid black;
+}
+
+.tetromino {
+    background-color: burlywood;
+}
